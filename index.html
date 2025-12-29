@@ -1,256 +1,267 @@
 ﻿<!doctype html>
 <html lang="es">
-<head>
-  <link rel="canonical" href="https://diazrealtyproperties.com/">
-  <meta name="robots" content="index, follow">
+<head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Diaz Realty Properties | New Jersey</title>
-  <meta name="description" content="Rentas y ventas en New Jersey. Servicio directo, rápido y profesional. Diaz Realty Properties." />
-  <meta name="theme-color" content="#0B1220" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Diaz Realty Properties | Rentas y Bienes Raíces en New Jersey</title>
+  <meta name="description" content="Rentas residenciales en Passaic, Clifton y North NJ. Opciones reales para familias y profesionales.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://diazrealtyproperties.com/">
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="Diaz Realty Properties" />
-  <meta property="og:description" content="Rentas y ventas en New Jersey. Servicio directo, rápido y profesional." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://diazrealtyproperties.com" />
-  <meta property="og:image" content="https://diazrealtyproperties.com/assets/og.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
-  <header class="topbar">
-  <link rel="canonical" href="https://diazrealtyproperties.com/">
-  <meta name="robots" content="index, follow">
-    <div class="container row between center">
-      <a class="brand" href="#top" aria-label="Diaz Realty Properties">
-        <span class="brandMark"></span>
-        <span class="brandText">Diaz Realty Properties</span>
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="/">
+        <span class="brand__mark">DRP</span>
+        <span class="brand__text">Diaz Realty Properties</span>
       </a>
 
       <nav class="nav">
-        <a href="#servicios">Servicios</a>
-        <a href="#propiedades">Propiedades</a>
-        <a href="#sobre-mi">Sobre mí</a>
-        <a href="#contacto" class="btn small">Contactar</a>
+        <a href="#listings">Rentas</a>
+        <a href="#services">Servicios</a>
+        <a href="#contact">Contacto</a>
+        <a class="btn btn--sm" href="/nfc">Tarjeta NFC</a>
       </nav>
-
-      <button class="hamburger" aria-label="Abrir menú" id="hamburger">☰</button>
-    </div>
-
-    <div class="mobileNav" id="mobileNav" hidden>
-      <a href="#servicios">Servicios</a>
-      <a href="#propiedades">Propiedades</a>
-      <a href="#sobre-mi">Sobre mí</a>
-      <a href="#contacto">Contactar</a>
-      <a href="nfc.html" class="pill">Landing NFC</a>
     </div>
   </header>
 
-  <main id="top">
+  <main>
     <section class="hero">
-      <div class="container heroGrid">
-        <div>
-          <div class="kicker">New Jersey • Rentas • Ventas</div>
-          <h1>Real estate directo, serio y sin pretensiones.</h1>
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="pill">North NJ • Rentas • Comunidad</p>
+          <h1>Rentas reales, trato claro, y proceso rápido.</h1>
           <p class="lead">
-            Te ayudo a encontrar, alquilar o vender con un proceso claro: comunicación rápida, números reales y ejecución.
+            Publicamos unidades en Passaic, Clifton y alrededores. Si eres inquilino,
+            te guiamos paso a paso. Si eres propietario, te ayudamos con renta y administración.
           </p>
-          <div class="ctaRow">
-            <a class="btn" href="#contacto">Agenda una llamada</a>
-            <a class="btn ghost" href="nfc.html">Ver tarjeta NFC</a>
+
+          <div class="cta">
+            <a class="btn" href="#contact">Preguntar por una renta</a>
+            <a class="btn btn--ghost" href="#listings">Ver opciones</a>
           </div>
 
           <div class="trust">
-            <div class="trustItem">
-              <div class="trustNum">NJ</div>
-              <div class="trustText">Enfoque local (Middlesex, Passaic, Essex, Bergen)</div>
+            <div class="trust__item">
+              <div class="trust__k">Respuesta</div>
+              <div class="trust__v">Rápida y directa</div>
             </div>
-            <div class="trustItem">
-              <div class="trustNum">24/7</div>
-              <div class="trustText">Seguimiento y respuesta rápida</div>
+            <div class="trust__item">
+              <div class="trust__k">Proceso</div>
+              <div class="trust__v">Claro y transparente</div>
             </div>
-            <div class="trustItem">
-              <div class="trustNum">Simple</div>
-              <div class="trustText">Proceso sin vueltas</div>
+            <div class="trust__item">
+              <div class="trust__k">Zona</div>
+              <div class="trust__v">Passaic • Clifton • North NJ</div>
             </div>
           </div>
         </div>
 
-        <div class="cardGlass">
-          <div class="cardTitle">Contacto rápido</div>
-          <div class="cardBody">
-            <div class="row gap">
-              <a class="pill" id="callBtn" href="tel:+1XXXXXXXXXX">📞 Llamar</a>
-              <a class="pill" id="smsBtn" href="sms:+1XXXXXXXXXX">💬 Texto</a>
-              <a class="pill" id="emailBtn" href="mailto:enriqueexprealty@gmail.com">✉️ Email</a>
+        <div class="hero__card">
+          <div class="card">
+            <div class="card__head">
+              <h2>¿Buscas renta?</h2>
+              <p>Envíame lo básico y te digo opciones reales.</p>
             </div>
 
-            <div class="divider"></div>
+            <form class="form" id="leadForm">
+              <label>
+                Nombre
+                <input name="name" autocomplete="name" placeholder="Tu nombre" required />
+              </label>
 
-            <div class="mini">
-              <div class="miniLabel">Tip</div>
-              <div>Reemplaza tu número en el archivo <code>index.html</code> y <code>nfc.html</code>.</div>
-            </div>
+              <div class="grid2">
+                <label>
+                  Teléfono
+                  <input name="phone" inputmode="tel" placeholder="(201) 555-1234" required />
+                </label>
+                <label>
+                  Presupuesto
+                  <input name="budget" inputmode="numeric" placeholder="$1,850" />
+                </label>
+              </div>
+
+              <label>
+                Ciudad / área
+                <input name="area" placeholder="Passaic, Clifton, Lodi..." required />
+              </label>
+
+              <label>
+                Mensaje
+                <textarea name="msg" rows="3" placeholder="2 habitaciones, 1 baño, move-in..." required></textarea>
+              </label>
+
+              <button class="btn btn--full" type="submit">Enviar</button>
+              <p class="fineprint">No spam. Respondo directo por texto o llamada.</p>
+            </form>
           </div>
+        </div>
+      </div>
+      <div class="hero__bg"></div>
+    </section>
+
+    <section id="listings" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Rentas disponibles</h2>
+          <p>Ejemplos de lo que publicamos. Actualizamos frecuentemente.</p>
+        </div>
+
+        <div class="cards">
+          <article class="listing">
+            <div class="listing__meta">
+              <span class="tag">Passaic</span>
+              <span class="tag tag--soft">Área tranquila</span>
+            </div>
+            <h3>Washington Place, Unit 1 — Passaic</h3>
+            <p class="listing__price">$1,850 / mes</p>
+            <ul class="bullets">
+              <li>Primer piso • 2 habitaciones • 1 baño</li>
+              <li>Cocina comedor, sala, baño con bañera</li>
+              <li>Gas, forced hot air, piso vinil</li>
+              <li>Patio disponible • Parking en la calle</li>
+              <li>Inquilino trae su nevera • paga luz/heat/gas • agua incluida</li>
+            </ul>
+            <a class="link" href="#contact">Preguntar por esta unidad →</a>
+          </article>
+
+          <article class="listing">
+            <div class="listing__meta">
+              <span class="tag">North NJ</span>
+              <span class="tag tag--soft">Proceso rápido</span>
+            </div>
+            <h3>¿No ves tu ciudad aquí?</h3>
+            <p class="listing__price">Dime tu presupuesto</p>
+            <ul class="bullets">
+              <li>Te digo opciones reales según tu perfil</li>
+              <li>Guía clara: requisitos, depósito, fechas</li>
+              <li>Atención en español / inglés</li>
+            </ul>
+            <a class="link" href="/nfc">Abrir tarjeta NFC →</a>
+          </article>
+
+          <article class="listing">
+            <div class="listing__meta">
+              <span class="tag">Propietarios</span>
+              <span class="tag tag--soft">Administración</span>
+            </div>
+            <h3>Servicios para propietarios</h3>
+            <p class="listing__price">Renta y gestión</p>
+            <ul class="bullets">
+              <li>Marketing y publicación</li>
+              <li>Aplicaciones / screening</li>
+              <li>Coordinación de visitas</li>
+              <li>Seguimiento y organización</li>
+            </ul>
+            <a class="link" href="#contact">Hablemos →</a>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="section" id="servicios">
+    <section id="services" class="section section--alt">
       <div class="container">
-        <h2>Servicios</h2>
-        <p class="muted">Elige la ruta que necesitas. Trabajo rápido, ordenado y con expectativas claras.</p>
-
-        <div class="grid3">
-          <div class="tile">
-            <h3>Rentas</h3>
-            <p>Aplicaciones, verificación, presentación al listing agent y coordinación de visitas.</p>
-            <ul>
-              <li>Precalificación rápida</li>
-              <li>Paquete “listo para aprobar”</li>
-              <li>Comunicación constante</li>
-            </ul>
-          </div>
-
-          <div class="tile">
-            <h3>Ventas</h3>
-            <p>Estrategia simple: precio real + exposición + negociación. Sin teatro.</p>
-            <ul>
-              <li>Análisis de mercado</li>
-              <li>Plan de salida</li>
-              <li>Negociación</li>
-            </ul>
-          </div>
-
-          <div class="tile">
-            <h3>Propietarios</h3>
-            <p>Soporte en listados, screening y procesos para reducir riesgo y vacancia.</p>
-            <ul>
-              <li>Filtro de inquilinos</li>
-              <li>Presentación profesional</li>
-              <li>Seguimiento</li>
-            </ul>
-          </div>
+        <div class="section__head">
+          <h2>Cómo trabajamos</h2>
+          <p>Simple, profesional y sin perder tiempo.</p>
         </div>
-      </div>
-    </section>
 
-    <section class="section alt" id="propiedades">
-      <div class="container">
-        <h2>Propiedades y listados</h2>
-        <p class="muted">
-          Aquí puedes poner tus listings actuales. Por ahora, dejamos un bloque listo para copiar/pegar tus links.
-        </p>
-
-        <div class="listings">
-          <div class="listing">
+        <div class="steps">
+          <div class="step">
+            <div class="step__n">1</div>
             <div>
-              <div class="badge">Disponible</div>
-              <div class="listingTitle">Ejemplo: Estudio Renovado — Leonia, NJ</div>
-              <div class="muted">Precio • Condiciones • Resumen corto</div>
+              <h3>Me das tu info básica</h3>
+              <p>Presupuesto, zona, fecha de mudanza y cuántas personas.</p>
             </div>
-            <a class="btn small ghost" href="#contacto">Pedir info</a>
           </div>
-
-          <div class="listing">
+          <div class="step">
+            <div class="step__n">2</div>
             <div>
-              <div class="badge">Disponible</div>
-              <div class="listingTitle">Ejemplo: 2BR Renovado — Clifton, NJ</div>
-              <div class="muted">Precio • Condiciones • Resumen corto</div>
+              <h3>Te digo opciones reales</h3>
+              <p>Te envío unidades que sí encajan con tu perfil (sin inventos).</p>
             </div>
-            <a class="btn small ghost" href="#contacto">Pedir info</a>
           </div>
-        </div>
-
-        <div class="ctaPanel">
-          <div>
-            <h3>¿Quieres aplicar rápido?</h3>
-            <p class="muted">Envíame tu info y te respondo con los siguientes pasos.</p>
-          </div>
-          <a class="btn" href="#contacto">Contactar</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="sobre-mi">
-      <div class="container">
-        <h2>Sobre mí</h2>
-        <div class="aboutGrid">
-          <div class="aboutCard">
-            <h3>Mi estilo</h3>
-            <p>
-              Soy directo. No vendo humo. Si algo no conviene, te lo digo. Si conviene, lo ejecuto rápido.
-            </p>
-            <p class="muted">
-              Enfoque principal: Middlesex, Passaic, Essex y Bergen (NJ).
-            </p>
-          </div>
-
-          <div class="aboutCard">
-            <h3>Cómo trabajo</h3>
-            <ol>
-              <li>Entiendo tu necesidad (zona, presupuesto, tiempos).</li>
-              <li>Te doy opciones reales, no “fantasías”.</li>
-              <li>Te guío en documentación y proceso.</li>
-              <li>Te mantengo al tanto hasta el cierre.</li>
-            </ol>
+          <div class="step">
+            <div class="step__n">3</div>
+            <div>
+              <h3>Aplicación y visita</h3>
+              <p>Te guío con requisitos, depósito, tiempos y próximos pasos.</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section alt" id="contacto">
-      <div class="container">
-        <h2>Contacto</h2>
-        <p class="muted">La forma más rápida: texto o llamada. También puedes enviar un mensaje.</p>
+    <section id="contact" class="section">
+      <div class="container contact">
+        <div>
+          <h2>Contacto</h2>
+          <p class="lead2">Escríbeme y te respondo directo.</p>
 
-        <div class="contactGrid">
-          <div class="tile">
-            <h3>Directo</h3>
-            <div class="row gap wrap">
-              <a class="pill" href="tel:+1XXXXXXXXXX">📞 +1 (XXX) XXX-XXXX</a>
-              <a class="pill" href="sms:+1XXXXXXXXXX">💬 Enviar texto</a>
-              <a class="pill" href="mailto:enriqueexprealty@gmail.com">✉️ enriqueexprealty@gmail.com</a>
+          <div class="contact__grid">
+            <div class="contact__item">
+              <div class="contact__k">Email</div>
+              <a class="contact__v" href="mailto:enriqueexprealty@gmail.com">enriqueexprealty@gmail.com</a>
             </div>
-            <div class="mini muted" style="margin-top:12px;">
-              Consejo: en NFC, el usuario quiere 1 click. Usa la landing <code>nfc.html</code>.
+
+            <div class="contact__item">
+              <div class="contact__k">Instagram</div>
+              <a class="contact__v" href="#" onclick="return false;">@diazrealtyproperties</a>
+              <div class="fineprint">Cámbialo por tu handle real.</div>
+            </div>
+
+            <div class="contact__item">
+              <div class="contact__k">WhatsApp</div>
+              <a class="contact__v" href="#" onclick="return false;">Link directo</a>
+              <div class="fineprint">Te lo dejo listo cuando me des tu número.</div>
             </div>
           </div>
+        </div>
 
-          <form class="form tile" id="contactForm">
-            <h3>Mensaje</h3>
-            <label>Nombre
-              <input name="name" required placeholder="Tu nombre" />
-            </label>
-            <label>Teléfono
-              <input name="phone" required placeholder="(###) ###-####" />
-            </label>
-            <label>Mensaje
-              <textarea name="message" required rows="4" placeholder="Qué estás buscando y para cuándo"></textarea>
-            </label>
-            <button class="btn" type="submit">Enviar</button>
-            <div class="mini muted">Este formulario envía por email usando tu app por defecto (sin backend).</div>
-          </form>
+        <div class="card card--flat">
+          <h3>Mensaje rápido</h3>
+          <p class="fineprint">Este botón solo arma el mensaje. Tú eliges por dónde responder.</p>
+          <a class="btn btn--full" href="/nfc">Abrir tarjeta NFC</a>
         </div>
       </div>
     </section>
-
-    <footer class="footer">
-      <div class="container row between center wrap">
-        <div class="muted">© <span id="year"></span> Diaz Realty Properties</div>
-        <div class="row gap wrap">
-          <a class="muted" href="nfc.html">Landing NFC</a>
-          <a class="muted" href="#top">Subir</a>
-        </div>
-      </div>
-    </footer>
   </main>
 
-  <script src="script.js"></script>
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>© <span id="y"></span> Diaz Realty Properties</div>
+      <div class="footer__right">
+        <a href="/sitemap.xml">Sitemap</a>
+        <a href="/robots.txt">Robots</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+
+    // Form simple: no envía a servidor; prepara texto para copiar/pegar (PRO sin backend).
+    const f = document.getElementById("leadForm");
+    f?.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const fd = new FormData(f);
+      const msg =
+`Hola, soy ${fd.get("name")}.
+Tel: ${fd.get("phone")}
+Presupuesto: ${fd.get("budget") || "N/A"}
+Área: ${fd.get("area")}
+Mensaje: ${fd.get("msg")}`;
+
+      navigator.clipboard?.writeText(msg).catch(() => {});
+      alert("Listo. Copié tu mensaje. Pégalo por texto/WhatsApp y te respondo.");
+      f.reset();
+    });
+  </script>
 </body>
 </html>
-
-
-
