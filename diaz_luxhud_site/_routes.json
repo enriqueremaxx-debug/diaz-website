@@ -1,0 +1,25 @@
+﻿{
+  "version": 1,
+  "include": [
+    "/*",
+    "/assets/*",
+    "/css/*",
+    "/js/*",
+    "/*.css",
+    "/*.js",
+    "/*.txt",
+    "/*.html",
+    "/*.xml",
+    "/*.json",
+    "/*.png",
+    "/*.jpg",
+    "/*.jpeg",
+    "/*.webp",
+    "/*.svg",
+    "/*.ico",
+    "/*.mp4"
+  ],
+  "exclude": [
+    "/cdn-cgi/*"
+  ]
+}
