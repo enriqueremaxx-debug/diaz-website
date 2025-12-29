@@ -1,3 +1,4 @@
 ﻿User-agent: *
 Allow: /
+
 Sitemap: https://diazrealtyproperties.com/sitemap.xml
